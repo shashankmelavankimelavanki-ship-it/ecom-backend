@@ -2,7 +2,7 @@ const express = require("express");
 const {
   createRazorpayOrder,
   verifyPayment,
-} = require("../controllers/ordercontroller");
+} = require("../controllers/orderController");
 
 const { isAuth } = require("../middlewares/authmiddlewares");
 
